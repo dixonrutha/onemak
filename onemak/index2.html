@@ -1,0 +1,963 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kilimo</title>
+    <link rel="stylesheet" href="css/stylecs.css">
+    <link rel="stylesheet" href="font/Font-Awesome-master/css/font-awesome.min.css">
+    <script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="js/" type="text/javascript" charset="utf-8"></script>
+
+
+    <style type="text/css">
+        * {
+            box-sizing: border-box;
+        }
+        .slider {
+            width: 95%;
+            margin: 100px auto;
+        }
+        .slick-slide {
+            margin: 0px 5px;
+        }
+        .slick-slide img {
+
+        }
+        .slick-prev:before,
+        .slick-next:before {
+            color: white;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<div class="centerThis">
+
+    <div class="header">
+        <div class="logo"></div>
+        <div class="trigger-btn"><span>Jiunge</span></div>
+    </div>
+    <div class="loh-hd">
+
+
+
+
+
+        <div class="form">
+            <div class="freeUsage">Ni bure kujisajili , ni bure kujiunga , ni bure kutumia</div>
+
+            <ul class="tab-group">
+                <li class="tab active"><a href="#signup">Jisajili</a></li>
+                <li class="tab"><a href="#login">Jiunge</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div id="signup">
+                    <form action="/" method="post">
+                        <div class="top-row">
+                            <div class="field-wrap">
+                                <input type="text" placeholder="Jina la kwanza" required autocomplete="off" />
+                            </div>
+
+                            <div class="field-wrap">
+                                <input type="text" placeholder="Jina la pili" required autocomplete="off"/>
+                            </div>
+                        </div>
+
+                        <div class="field-wrap">
+                            <input type="email" placeholder="Barua pepe" required autocomplete="off"/>
+                        </div>
+
+                        <div class="field-wrap">
+                            <input type="password" placeholder="Neno la siri" required autocomplete="off"/>
+                        </div>
+
+                        <div class="field-wrap">
+                            <input type="password" placeholder="Thibitisha neno la siri" required autocomplete="off"/>
+                        </div>
+
+                        <button type="submit" class="button button-block"/>Jisajili sasa</button>
+
+                    </form>
+
+                </div>
+
+                <div id="login">
+
+                    <form action="/" method="post">
+
+                        <div class="field-wrap">
+                            <input type="email" placeholder="Barua pepe" required autocomplete="off"/>
+                        </div>
+
+                        <div class="field-wrap">
+                            <input type="password" placeholder="Neno la siri" required autocomplete="off"/>
+                        </div>
+
+                        <p class="forgot"><a href="#">Umesahau neo la siri?</a></p>
+
+                        <button class="button button-block"/>Jiunge</button>
+
+                    </form>
+
+                </div>
+
+            </div><!-- tab-content -->
+
+        </div> <!-- /form -->
+
+
+
+
+
+
+    </div>
+
+    <div class="stick-image">
+        <img class="image-body" src="images/maize.jpg">
+    </div>
+
+
+    <div class="cropsInformation_footer">
+
+        <section class="regular slider">
+            <div>
+                <div class="tableExits">
+                    <a href="kn_products_more.html">
+                        <div class="tableProductName">
+                            <span>Mwanza</span>
+                        </div>
+                        <div class="tableProductHeader">
+                            <div class="tableHeader foodName ">Mazao</div>
+                            <div class="tableHeader foodWeight">Ujazo</div>
+                            <div class="tableHeader foodPrice">bei</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mchele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Uwele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mahindi</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mpunga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div>
+
+
+
+
+                <div class="tableExits">
+                  <!-- <a href="kn_products_more.html">  -->
+                        <div class="tableProductName">
+                            <span>Mbeya</span>
+                        </div>
+                        <div class="tableProductHeader">
+                            <div class="tableHeader foodName ">Mazao</div>
+                            <div class="tableHeader foodWeight">Ujazo</div>
+                            <div class="tableHeader foodPrice">bei</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mchele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Uwele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mahindi</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mpunga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                   <!-- </a> -->
+                </div>
+            </div>
+            <div>
+                <div class="tableExits">
+                   <!-- <a href="#"> -->
+                        <div class="tableProductName">
+                            <span>Iringa</span>
+                        </div>
+                        <div class="tableProductHeader">
+                            <div class="tableHeader foodName ">Mazao</div>
+                            <div class="tableHeader foodWeight">Ujazo</div>
+                            <div class="tableHeader foodPrice">bei</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mchele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Uwele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mahindi</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mpunga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                <!--    </a> -->
+                </div>
+            </div>
+            <div>
+                <div class="tableExits">
+                <!--    <a href="#"> -->
+                        <div class="tableProductName">
+                            <span>Morogoro</span>
+                        </div>
+                        <div class="tableProductHeader">
+                            <div class="tableHeader foodName ">Mazao</div>
+                            <div class="tableHeader foodWeight">Ujazo</div>
+                            <div class="tableHeader foodPrice">bei</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mchele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Uwele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mahindi</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mpunga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mtama</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Karanga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                 <!--   </a> -->
+                </div>
+            </div>
+            <div>
+                <div class="tableExits">
+                 <!--   <a href="#"> -->
+                        <div class="tableProductName">
+                            <span>Mtwara</span>
+                        </div>
+                        <div class="tableProductHeader">
+                            <div class="tableHeader foodName ">Mazao</div>
+                            <div class="tableHeader foodWeight">Ujazo</div>
+                            <div class="tableHeader foodPrice">bei</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mchele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Uwele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mahindi</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mpunga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mtama</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Karanga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                  <!--  </a> -->
+                </div>
+            </div>
+
+            <div>
+                <div class="tableExits">
+                 <!--   <a href="#"> -->
+                        <div class="tableProductName">
+                            <span>Mtwara</span>
+                        </div>
+                        <div class="tableProductHeader">
+                            <div class="tableHeader foodName ">Mazao</div>
+                            <div class="tableHeader foodWeight">Ujazo</div>
+                            <div class="tableHeader foodPrice">bei</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mchele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Uwele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mahindi</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mpunga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mtama</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Karanga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                <!--    </a> -->
+                </div>
+            </div>
+
+            <div>
+                <div class="tableExits">
+                 <!--   <a href="#"> -->
+                        <div class="tableProductName">
+                            <span>Mtwara</span>
+                        </div>
+                        <div class="tableProductHeader">
+                            <div class="tableHeader foodName ">Mazao</div>
+                            <div class="tableHeader foodWeight">Ujazo</div>
+                            <div class="tableHeader foodPrice">bei</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mchele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Uwele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mahindi</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mpunga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mtama</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Karanga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                  <!--  </a> -->
+                </div>
+            </div>
+
+            <div>
+                <div class="tableExits">
+                 <!--   <a href="#"> -->
+                        <div class="tableProductName">
+                            <span>Mtwara</span>
+                        </div>
+                        <div class="tableProductHeader">
+                            <div class="tableHeader foodName ">Mazao</div>
+                            <div class="tableHeader foodWeight">Ujazo</div>
+                            <div class="tableHeader foodPrice">bei</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mchele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Uwele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mahindi</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mpunga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mtama</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Karanga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                  <!--  </a> -->
+                </div>
+            </div>
+
+            <div>
+                <div class="tableExits">
+                <!--    <a href="#"> -->
+                        <div class="tableProductName">
+                            <span>Mtwara</span>
+                        </div>
+                        <div class="tableProductHeader">
+                            <div class="tableHeader foodName ">Mazao</div>
+                            <div class="tableHeader foodWeight">Ujazo</div>
+                            <div class="tableHeader foodPrice">bei</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mchele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Uwele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mahindi</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mpunga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mtama</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Karanga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                <!--    </a> -->
+                </div>
+            </div>
+
+            <div>
+                <div class="tableExits"> 
+                  <!--  <a href="#"> -->
+                        <div class="tableProductName">
+                            <span>Mtwara</span>
+                        </div>
+                        <div class="tableProductHeader">
+                            <div class="tableHeader foodName ">Mazao</div>
+                            <div class="tableHeader foodWeight">Ujazo</div>
+                            <div class="tableHeader foodPrice">bei</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mchele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Uwele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mahindi</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mpunga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mtama</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Karanga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                  <!--  </a> -->
+                </div>
+            </div>
+
+            <div>
+                <div class="tableExits">
+                 <!--   <a href="#"> -->
+                        <div class="tableProductName">
+                            <span>Mara</span>
+                        </div>
+                        <div class="tableProductHeader">
+                            <div class="tableHeader foodName ">Mazao</div>
+                            <div class="tableHeader foodWeight">Ujazo</div>
+                            <div class="tableHeader foodPrice">bei</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mchele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Uwele</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mahindi</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mpunga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Mtama</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Karanga</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+                        <div class="tableProductList">
+                            <div class="tableCrop cropName">Ufuta</div>
+                            <div class="tableCrop cropWeight">Kg 1</div>
+                            <div class="tableCrop cropPrice">Tsh 2000</div>
+                        </div>
+
+
+                   <!-- </a> -->
+                </div>
+            </div>
+
+
+        </section>
+
+
+
+        <div class="footer">
+            <ul class="listWrapper">
+                <li class="listFooter"> <a href="#"> Tujue </a> </li>
+                <li class="listFooter"> <a href="#"> Tangaza </a> </li>
+                <li class="listFooter"> <a href="#"> Msaada </a> </li>
+                <li class="listFooter"> <a href="#"> Mrejesho </a> </li>
+                <li class="listFooter"> <a href="#"> Usalama </a> </li>
+            </ul>
+
+            <div class="copyRght">&copy 2017 Kilimo net</div>
+        </div>
+
+    </div>
+</div>
+</body>
+
+
+
+<script type="text/javascript">
+    $(document).on('ready', function() {
+        $(".regular").slick({
+            dots: false,
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 5
+        });
+        $(".center").slick({
+            dots: false,
+            infinite: true,
+            centerMode: true,
+            slidesToShow: 5,
+            slidesToScroll: 5
+        });
+        $(".variable").slick({
+            dots: false,
+            infinite: true,
+            variableWidth: true
+        });
+        $(".lazy").slick({
+            lazyLoad: 'ondemand', // ondemand progressive anticipated
+            infinite: true
+        });
+    });
+
+
+
+
+
+
+/* This open and close form */
+
+    $(document).ready(function () {
+        $(".trigger-btn").click(function () {
+            var $target = $($(this).data('target'));
+            $(".loh-hd").not($target).stop().slideDown();
+            $target.slideUp();
+        });
+        //$(".trigger-btn").mouseleave(function () {
+          //  $(".loh-hd").stop().slideUp();
+        //});
+    });
+
+
+
+
+
+
+//  form changes from registration to login
+
+    $('.form').find('input, textarea').on('keyup blur focus', function (e) {
+
+        var $this = $(this),
+                label = $this.prev('label');
+
+        if (e.type === 'keyup') {
+            if ($this.val() === '') {
+                label.removeClass('active highlight');
+            } else {
+                label.addClass('active highlight');
+            }
+        } else if (e.type === 'blur') {
+            if( $this.val() === '' ) {
+                label.removeClass('active highlight');
+            } else {
+                label.removeClass('highlight');
+            }
+        } else if (e.type === 'focus') {
+
+            if( $this.val() === '' ) {
+                label.removeClass('highlight');
+            }
+            else if( $this.val() !== '' ) {
+                label.addClass('highlight');
+            }
+        }
+
+    });
+
+    $('.tab a').on('click', function (e) {
+
+        e.preventDefault();
+
+        $(this).parent().addClass('active');
+        $(this).parent().siblings().removeClass('active');
+
+        target = $(this).attr('href');
+
+        $('.tab-content > div').not(target).hide();
+
+        $(target).fadeIn(600);
+
+    });
+</script>
+
+</html>

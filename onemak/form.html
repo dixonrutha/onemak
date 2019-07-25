@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jiunge</title>
+<style>
+
+    body{
+        background: url("./images/asa.png");
+        padding: 0;
+        margin: 0;
+    }
+    body{background-color:#fafafa;
+        margin: 0;
+        padding: 0;
+    }
+    .transparent-background{box-shadow: 0px 0px 1px 0px;
+        border-top:5px solid #39b54a;
+        border-top-right-radius:5px;
+        border-top-left-radius:5px;
+        background: #fff;
+        width:23%;
+        height:432px;
+        position:absolute;
+        left:38%;
+        top:15%;
+    }
+    .signup-form{ border-top:5px solid #39b54a;
+        border-top-right-radius:5px;
+        border-top-left-radius:5px;
+        background-color: #fff;
+        width:23%;
+        height:432px;
+        margin:0;
+        padding:0;
+        position:absolute;
+        top:15%;
+        left:38%;
+
+    }
+    input[type="text"], input[type="email"], input[type="password"]{ position: relative;
+        padding: 5px;
+        left: 6%;
+        top:20px;
+        width:79%;
+        height:30px;
+        margin:5px;
+        border:1px solid #39b54a;
+        outline: none;     /* safari and its variants  */
+        outline-offset: 0; /* IE and its variants  */
+        -webkit-appearance:none; /* Chrome and its variants  */
+        -webkit-appearance:none;
+        font-size: 15px;
+    }
+    input[type="text"]:focus{
+        border: 1px solid #adff2f;
+    } input[type="email"]:focus{
+        border: 1px solid #adff2f;
+    }
+    input[type="password"]:focus{
+        border: 1px solid #adff2f;
+    }
+    input[type="submit"]{background-color:#39b54a;
+        position: relative;
+        top:20px;
+        left:8%;
+        width:79%;
+        height:40px;
+        margin:5px;
+        border: 0;
+        color:#fff;
+        font-size: 1.40em;
+        font-weight:bold;
+        cursor: pointer;
+        outline: none;     /* safari and its variants  */
+        outline-offset: 0; /* IE and its variants  */
+        -webkit-appearance:none; /* Chrome and its variants  */
+        -webkit-appearance:none;
+    }
+    input[type="submit"]:hover{background: #adff2f;}
+    .gender{position: relative;
+        top:20px;
+        left:15px;
+        font-size: 0.80em;
+        cursor: pointer;
+        margin: 5px;
+    }
+    ::-webkit-input-placeholder{
+        font-size: 15px;
+        color: #999;
+    }
+    :-moz-placeholder{
+        font-size: 15px;
+        color: #999;
+    }
+    :-ms-input-placeholder{
+        font-size: 15px;
+        color: #999;
+    }
+    form p{font-size: 0.70em;
+        font-family: ubuntu;
+        position: relative;
+        top:10px;
+        left:25px;
+    }
+    form p a:link{color: #39b54a;
+        text-decoration: none;
+    }
+    form p a:active{color: #39b54a;
+        text-decoration: none;
+    }
+    form p a:visited{color: #39b54a;
+        text-decoration: none;
+    }
+    form p a:hover{color: #39b54a;
+        text-decoration: underline;
+    }
+
+</style>
+
+
+</head>
+<body>
+<div class="centerThis">
+    <div class="transparent-background"></div>
+    <div class="signup-form">
+        <form name="register" method="POST" action="register.php">
+
+            <input type="text" id="firstname" name="fname" placeholder="Jina la kwanza" required="required"/>
+            <br/>
+            <input type="text" id="lastname" name="lname" placeholder="Jina la pili" required="required"/>
+            <br/>
+            <input type="email" id="email" name="email" placeholder="Barua pepe">
+            <br/>
+            <input type="text" id="mobileno" name="mobile" placeholder="Namba ya simu" required="required"/>
+            <br/>
+            <input type="password" id="password"  name="pascode" placeholder="Neno la siri" required="required"/>
+            <br/>
+            <div class="gender">
+                <input type="radio" name="sex" id="female" value="Female" required="required"/>
+                Female
+                <input type="radio" name="sex" value="Male" id="Male" required="required"/>
+                Male
+            </div>
+            <br/>
+            <p>Kujiunga hapa unakubaliana na <a href="#">Taratibu</a><br/>
+                na kwamba umesoma <a href="#">Sera zetu</a><br/>
+                pamoja na  <a href="#">Sheria za mitandao</a>.</p>
+            <input type="submit" name="submit" value="Jisajili">
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

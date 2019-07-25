@@ -1,0 +1,6 @@
+[26-Apr-2019 15:05:07 Africa/Dar_es_Salaam] PHP Warning:  mysql_connect(): Access denied for user 'onemak_user'@'localhost' (using password: YES) in /home/onemak/public_html/connection.php on line 2
+[26-Apr-2019 15:05:07 Africa/Dar_es_Salaam] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/onemak/public_html/connection.php on line 3
+[26-Apr-2019 15:05:18 Africa/Dar_es_Salaam] PHP Warning:  mysql_connect(): Access denied for user 'onemak_user'@'localhost' (using password: YES) in /home/onemak/public_html/connection.php on line 2
+[26-Apr-2019 15:05:18 Africa/Dar_es_Salaam] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/onemak/public_html/connection.php on line 3
+[26-Apr-2019 15:05:29 Africa/Dar_es_Salaam] PHP Warning:  mysql_connect(): Access denied for user 'onemak_user'@'localhost' (using password: YES) in /home/onemak/public_html/connection.php on line 2
+[26-Apr-2019 15:05:29 Africa/Dar_es_Salaam] PHP Warning:  mysql_select_db() expects parameter 2 to be resource, boolean given in /home/onemak/public_html/connection.php on line 3
